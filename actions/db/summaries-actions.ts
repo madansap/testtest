@@ -17,6 +17,7 @@
  * - Sorted in CRUD order: Create, Update (Read and Delete not needed yet).
  * - Returns undefined data for actions not returning data, per project rules.
  * - Handles database errors with meaningful messages.
+ * - Used by refineSummaryAction to persist refined summaries.
  */
 
 "use server"
