@@ -1,8 +1,7 @@
 {
   "name": "receipt-ai",
   "version": "0.1.0",
-  "description": "A web application for receipt management",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -51,6 +50,7 @@
     "@radix-ui/react-toggle-group": "^1.1.2",
     "@radix-ui/react-tooltip": "^1.1.8",
     "@tailwindcss/postcss": "^4.0.6",
+    "@xai-org/client": "^0.0.1", 
     "autoprefixer": "^10.4.20",
     "axios": "^1.7.7",
     "canvas": "^2.11.2",
@@ -97,7 +97,5 @@
     "husky": "^9.1.7",
     "prettier": "^3.5.0",
     "typescript": "^5"
-  },
-  "author": "Your Name",
-  "license": "ISC"
+  }
 }
